@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9810BEF21B24395B00B25327 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9810BEF11B24395B00B25327 /* main.m */; };
+		9810BEF51B24395B00B25327 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9810BEF41B24395B00B25327 /* AppDelegate.m */; };
+		9810BEFD1B24395B00B25327 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9810BEFC1B24395B00B25327 /* Images.xcassets */; };
+		9810BF001B24395B00B25327 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9810BEFE1B24395B00B25327 /* LaunchScreen.xib */; };
+		9810BF271B2439C900B25327 /* image_choosed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9810BF161B2439C900B25327 /* image_choosed@2x.png */; };
+		9810BF281B2439C900B25327 /* SXImageDisplayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9810BF181B2439C900B25327 /* SXImageDisplayerView.m */; };
+		9810BF291B2439C900B25327 /* SXMImageChooserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9810BF1A1B2439C900B25327 /* SXMImageChooserCell.m */; };
+		9810BF2A1B2439C900B25327 /* SXMImageFooterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9810BF1C1B2439C900B25327 /* SXMImageFooterCell.m */; };
+		9810BF2B1B2439C900B25327 /* SXMImagePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9810BF1E1B2439C900B25327 /* SXMImagePickerCell.m */; };
+		9810BF2C1B2439C900B25327 /* SXMulpitleImageChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9810BF201B2439C900B25327 /* SXMulpitleImageChooser.m */; };
+		9810BF2D1B2439C900B25327 /* SXMulpitleImageChooser_Time.m in Sources */ = {isa = PBXBuildFile; fileRef = 9810BF221B2439C900B25327 /* SXMulpitleImageChooser_Time.m */; };
+		9810BF2E1B2439C900B25327 /* SXMulpitleImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9810BF241B2439C900B25327 /* SXMulpitleImagePicker.m */; };
+		9810BF2F1B2439C900B25327 /* UIView+gesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 9810BF261B2439C900B25327 /* UIView+gesture.m */; };
+		9810BF361B2439E000B25327 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9810BF311B2439E000B25327 /* MyCollectionViewCell.m */; };
+		9810BF371B2439E000B25327 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9810BF321B2439E000B25327 /* MyCollectionViewCell.xib */; };
+		9810BF381B2439E000B25327 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9810BF341B2439E000B25327 /* ViewController.m */; };
+		9810BF391B2439E000B25327 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9810BF351B2439E000B25327 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9810BEEC1B24395B00B25327 /* SXMulpitleImagePickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SXMulpitleImagePickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9810BEF01B24395B00B25327 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9810BEF11B24395B00B25327 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9810BEF31B24395B00B25327 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9810BEF41B24395B00B25327 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9810BEFC1B24395B00B25327 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9810BEFF1B24395B00B25327 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9810BF161B2439C900B25327 /* image_choosed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_choosed@2x.png"; sourceTree = "<group>"; };
+		9810BF171B2439C900B25327 /* SXImageDisplayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXImageDisplayerView.h; sourceTree = "<group>"; };
+		9810BF181B2439C900B25327 /* SXImageDisplayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXImageDisplayerView.m; sourceTree = "<group>"; };
+		9810BF191B2439C900B25327 /* SXMImageChooserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXMImageChooserCell.h; sourceTree = "<group>"; };
+		9810BF1A1B2439C900B25327 /* SXMImageChooserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXMImageChooserCell.m; sourceTree = "<group>"; };
+		9810BF1B1B2439C900B25327 /* SXMImageFooterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXMImageFooterCell.h; sourceTree = "<group>"; };
+		9810BF1C1B2439C900B25327 /* SXMImageFooterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXMImageFooterCell.m; sourceTree = "<group>"; };
+		9810BF1D1B2439C900B25327 /* SXMImagePickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXMImagePickerCell.h; sourceTree = "<group>"; };
+		9810BF1E1B2439C900B25327 /* SXMImagePickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXMImagePickerCell.m; sourceTree = "<group>"; };
+		9810BF1F1B2439C900B25327 /* SXMulpitleImageChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXMulpitleImageChooser.h; sourceTree = "<group>"; };
+		9810BF201B2439C900B25327 /* SXMulpitleImageChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXMulpitleImageChooser.m; sourceTree = "<group>"; };
+		9810BF211B2439C900B25327 /* SXMulpitleImageChooser_Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXMulpitleImageChooser_Time.h; sourceTree = "<group>"; };
+		9810BF221B2439C900B25327 /* SXMulpitleImageChooser_Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXMulpitleImageChooser_Time.m; sourceTree = "<group>"; };
+		9810BF231B2439C900B25327 /* SXMulpitleImagePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXMulpitleImagePicker.h; sourceTree = "<group>"; };
+		9810BF241B2439C900B25327 /* SXMulpitleImagePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXMulpitleImagePicker.m; sourceTree = "<group>"; };
+		9810BF251B2439C900B25327 /* UIView+gesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+gesture.h"; sourceTree = "<group>"; };
+		9810BF261B2439C900B25327 /* UIView+gesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+gesture.m"; sourceTree = "<group>"; };
+		9810BF301B2439E000B25327 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		9810BF311B2439E000B25327 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		9810BF321B2439E000B25327 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		9810BF331B2439E000B25327 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9810BF341B2439E000B25327 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9810BF351B2439E000B25327 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9810BEE91B24395B00B25327 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9810BEE31B24395B00B25327 = {
+			isa = PBXGroup;
+			children = (
+				9810BEEE1B24395B00B25327 /* SXMulpitleImagePickerDemo */,
+				9810BEED1B24395B00B25327 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9810BEED1B24395B00B25327 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9810BEEC1B24395B00B25327 /* SXMulpitleImagePickerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9810BEEE1B24395B00B25327 /* SXMulpitleImagePickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9810BF331B2439E000B25327 /* ViewController.h */,
+				9810BF341B2439E000B25327 /* ViewController.m */,
+				9810BF351B2439E000B25327 /* ViewController.xib */,
+				9810BF301B2439E000B25327 /* MyCollectionViewCell.h */,
+				9810BF311B2439E000B25327 /* MyCollectionViewCell.m */,
+				9810BF321B2439E000B25327 /* MyCollectionViewCell.xib */,
+				9810BF151B2439C900B25327 /* SXMulpitleImagePicker */,
+				9810BEEF1B24395B00B25327 /* Supporting Files */,
+			);
+			path = SXMulpitleImagePickerDemo;
+			sourceTree = "<group>";
+		};
+		9810BEEF1B24395B00B25327 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9810BEF31B24395B00B25327 /* AppDelegate.h */,
+				9810BEF41B24395B00B25327 /* AppDelegate.m */,
+				9810BEFC1B24395B00B25327 /* Images.xcassets */,
+				9810BEFE1B24395B00B25327 /* LaunchScreen.xib */,
+				9810BEF01B24395B00B25327 /* Info.plist */,
+				9810BEF11B24395B00B25327 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9810BF151B2439C900B25327 /* SXMulpitleImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				9810BF161B2439C900B25327 /* image_choosed@2x.png */,
+				9810BF171B2439C900B25327 /* SXImageDisplayerView.h */,
+				9810BF181B2439C900B25327 /* SXImageDisplayerView.m */,
+				9810BF191B2439C900B25327 /* SXMImageChooserCell.h */,
+				9810BF1A1B2439C900B25327 /* SXMImageChooserCell.m */,
+				9810BF1B1B2439C900B25327 /* SXMImageFooterCell.h */,
+				9810BF1C1B2439C900B25327 /* SXMImageFooterCell.m */,
+				9810BF1D1B2439C900B25327 /* SXMImagePickerCell.h */,
+				9810BF1E1B2439C900B25327 /* SXMImagePickerCell.m */,
+				9810BF1F1B2439C900B25327 /* SXMulpitleImageChooser.h */,
+				9810BF201B2439C900B25327 /* SXMulpitleImageChooser.m */,
+				9810BF211B2439C900B25327 /* SXMulpitleImageChooser_Time.h */,
+				9810BF221B2439C900B25327 /* SXMulpitleImageChooser_Time.m */,
+				9810BF231B2439C900B25327 /* SXMulpitleImagePicker.h */,
+				9810BF241B2439C900B25327 /* SXMulpitleImagePicker.m */,
+				9810BF251B2439C900B25327 /* UIView+gesture.h */,
+				9810BF261B2439C900B25327 /* UIView+gesture.m */,
+			);
+			path = SXMulpitleImagePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9810BEEB1B24395B00B25327 /* SXMulpitleImagePickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9810BF0F1B24395B00B25327 /* Build configuration list for PBXNativeTarget "SXMulpitleImagePickerDemo" */;
+			buildPhases = (
+				9810BEE81B24395B00B25327 /* Sources */,
+				9810BEE91B24395B00B25327 /* Frameworks */,
+				9810BEEA1B24395B00B25327 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SXMulpitleImagePickerDemo;
+			productName = SXMulpitleImagePickerDemo;
+			productReference = 9810BEEC1B24395B00B25327 /* SXMulpitleImagePickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9810BEE41B24395B00B25327 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = songxing10000;
+				TargetAttributes = {
+					9810BEEB1B24395B00B25327 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 9810BEE71B24395B00B25327 /* Build configuration list for PBXProject "SXMulpitleImagePickerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9810BEE31B24395B00B25327;
+			productRefGroup = 9810BEED1B24395B00B25327 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9810BEEB1B24395B00B25327 /* SXMulpitleImagePickerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9810BEEA1B24395B00B25327 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9810BF391B2439E000B25327 /* ViewController.xib in Resources */,
+				9810BF001B24395B00B25327 /* LaunchScreen.xib in Resources */,
+				9810BEFD1B24395B00B25327 /* Images.xcassets in Resources */,
+				9810BF371B2439E000B25327 /* MyCollectionViewCell.xib in Resources */,
+				9810BF271B2439C900B25327 /* image_choosed@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9810BEE81B24395B00B25327 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9810BF2C1B2439C900B25327 /* SXMulpitleImageChooser.m in Sources */,
+				9810BF361B2439E000B25327 /* MyCollectionViewCell.m in Sources */,
+				9810BF2D1B2439C900B25327 /* SXMulpitleImageChooser_Time.m in Sources */,
+				9810BF2E1B2439C900B25327 /* SXMulpitleImagePicker.m in Sources */,
+				9810BF2A1B2439C900B25327 /* SXMImageFooterCell.m in Sources */,
+				9810BEF51B24395B00B25327 /* AppDelegate.m in Sources */,
+				9810BF381B2439E000B25327 /* ViewController.m in Sources */,
+				9810BF2F1B2439C900B25327 /* UIView+gesture.m in Sources */,
+				9810BEF21B24395B00B25327 /* main.m in Sources */,
+				9810BF291B2439C900B25327 /* SXMImageChooserCell.m in Sources */,
+				9810BF2B1B2439C900B25327 /* SXMImagePickerCell.m in Sources */,
+				9810BF281B2439C900B25327 /* SXImageDisplayerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9810BEFE1B24395B00B25327 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9810BEFF1B24395B00B25327 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9810BF0D1B24395B00B25327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9810BF0E1B24395B00B25327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9810BF101B24395B00B25327 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SXMulpitleImagePickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9810BF111B24395B00B25327 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SXMulpitleImagePickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9810BEE71B24395B00B25327 /* Build configuration list for PBXProject "SXMulpitleImagePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9810BF0D1B24395B00B25327 /* Debug */,
+				9810BF0E1B24395B00B25327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9810BF0F1B24395B00B25327 /* Build configuration list for PBXNativeTarget "SXMulpitleImagePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9810BF101B24395B00B25327 /* Debug */,
+				9810BF111B24395B00B25327 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9810BEE41B24395B00B25327 /* Project object */;
+}
