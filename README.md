@@ -3,6 +3,7 @@
 
 - Allows multiple selection of photos
 
+![1.gif](1.gif)
 
 
 ## Requirements
@@ -46,7 +47,7 @@ This method will be called when the user finishes picking assets.
 	        
     }
     [picker dismissViewControllerAnimated:YES completion:nil];
-}
+    }
 
 
 
@@ -81,6 +82,7 @@ The default value is `0`, which means the number of selection is unlimited.
 
 
 第二步，在某个事件触发，比如按钮点击加入
+
     SXMulpitleImagePicker *picker = [[SXMulpitleImagePicker alloc]init];
     picker.delegate = self;
     picker.minImageCount = 0;
@@ -90,18 +92,20 @@ The default value is `0`, which means the number of selection is unlimited.
     
     
 第三步，实现代理方法
-    
-- (void)mulpitleImagePickerDidCancel:(SXMulpitleImagePicker *)picker {
-    [picker dismissViewControllerAnimated:YES completion:nil];
-}
 
-- (void)mulpitleImagePicker:(SXMulpitleImagePicker *)picker didFinishPickingAssets:(NSArray *)assets {
+	- (void)mulpitleImagePickerDidCancel:(SXMulpitleImagePicker *)picker 
+	{
+    [picker dismissViewControllerAnimated:YES completion:nil];
+    }
+    
+    - (void)mulpitleImagePicker:(SXMulpitleImagePicker *)picker didFinishPickingAssets:(NSArray *)assets {
+    
     for(ALAsset *asset in assets)
     {
-        UIImage * image = [UIImage imageWithCGImage:[[asset defaultRepresentation] fullScreenImage]];
+      UIImage * image = [UIImage imageWithCGImage:[[asset defaultRepresentation] fullScreenImage]];
         [self.images addObject:image];
+        }
         
-    }
     [picker dismissViewControllerAnimated:YES completion:nil];
     [self.collectionView reloadData];
 }
